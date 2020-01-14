@@ -23,7 +23,7 @@ Run "Overlay.ahk" as admin.
 
 If you want to choose a different chart or adjust it for a different resolution, the recommended method is creating a new transparent image same size as your display resolution and sticking the chart guide in the desired position.
 
-#Credits:
+# Credits:
 - Heokor for creating the league overlay github repo
 - Eruyome. PoE-TradeMacro and PoE-CustomUIOverlay creator, as this utility is just a minor modification of his work
 - Reddit user Lymonator for creating the Original Syndicate Chart. Also users Nolanbrolan, Ordicomputers, rrzusp45 whose work was used in the making of said chart.
