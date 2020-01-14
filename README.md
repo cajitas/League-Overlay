@@ -1,3 +1,13 @@
+# Changes
+
+Delve and Syndicate overlays have been modified to include missing fossils and personal opinions / meta shifts designed for the new atlas. I've included sources to this in .PSD format.
+
+# Betrayal Overlay
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/syndicate.png)
+
+# Delve Overlay
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/fossils.png)
+
 # League-Overlay
 
 Run "Overlay.ahk" as admin.
