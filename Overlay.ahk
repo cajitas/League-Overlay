@@ -29,7 +29,7 @@ OnExit, Exit
 
 global image1 := "Syndicate.png"
 global image2 := "Incursion.png"
-global image3 := "Map.png"
+global image3 := "Blight.png"
 global image4 := "Fossil.png"
 global GuiOn1 := 0
 global GuiOn2 := 0
