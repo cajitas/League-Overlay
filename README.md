@@ -1,6 +1,6 @@
-# Changes
+# What is this?
 
-Delve and Syndicate overlays have been modified to include missing fossils and personal opinions / meta shifts designed for the new atlas. I've included sources to this in .PSD format.
+This repo is a fork of Heokor's League Overlay Repo. This overlay is designed with Path of Exile 3.9 and above in mind while fixing the missing fossils in the delve overlay. I've also modified the Syndicate rewards charts to better illustrate the meta shifts now that more leagues have been introduced to the game. For example: with the over-arching change of the Atlas, certain rewards such as shaper / elder scarab are now more useful and thus their rewards have been shifted.
 
 # Betrayal Overlay
 ![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/syndicate.png)
