@@ -10,11 +10,12 @@ I've also modified the Syndicate rewards charts to better illustrate the meta sh
 # Blighted Map Oils (F4)
 - Note: This is replacing the Atlas overlay.
 
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/bligthtoils.png)
+
 # Delve Overlay (F6)
 ![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/fossils.png)
 
 
-![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/bligthtoils.png)
 
 # League-Overlay
 
