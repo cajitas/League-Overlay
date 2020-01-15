@@ -5,22 +5,22 @@ This repo is a fork of Heokor's League Overlay Repo. This overlay is designed wi
 I've also modified the Syndicate rewards charts to better illustrate the meta shifts now that more leagues have been introduced to the game. For example: with the over-arching change of the Atlas, certain rewards such as shaper / elder scarab are now more useful and thus their rewards have been shifted.
 
 # Betrayal Overlay (F2)
-![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/syndicate.png)
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/resources/screenshots/syndicate.png)
 
 # Incursion Overlay (F3)
-![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/alva.png)
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/resources/screenshots/alva.png)
 
 
 # Catalysts (F4)
 - Note: This is replacing the Atlas overlay.
 
-![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/catalysts.png)
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/resources/screenshots/catalysts.png)
 
 # Delve Overlay (F6)
-![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/fossils.png)
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/resources/screenshots/fossils.png)
 
 # Blighted Map Oils (F7)
-![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/sources/bligthtoils.png)
+![Screenshot](https://github.com/kestalkayden/League-Overlay/blob/master/resources/screenshots/bligthtoils.png)
 
 # League-Overlay
 
