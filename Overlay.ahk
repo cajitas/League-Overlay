@@ -28,15 +28,11 @@ If !pToken := Gdip_Startup()
 OnExit, Exit
 
 global image1 := "Syndicate.png"
-global image2 := "Incursion.png"
-global image3 := "Catalysts.png"
-global image4 := "Fossil.png"
-global image5 := "Blight.png"
+global image2 := "Seeds.png"
+global image3 := "Fossil.png"
 global GuiOn1 := 0
 global GuiOn2 := 0
 global GuiOn3 := 0
-global GuiOn4 := 0
-global GuiOn5 := 0
 
 global poeWindowName = "Path of Exile ahk_class POEWindowClass"
 
@@ -77,12 +73,12 @@ Else {
 
 ; Get a bitmap from the image
 
-Loop 5{
+Loop 3{
 pBitmap%A_Index% := Gdip_CreateBitmapFromFile(image%A_Index%)
 
 }
 
-Loop 5{
+Loop 3{
 If !pBitmap%A_Index%
 {
 	MsgBox, 48, File loading error!, Could not load the image specified
@@ -94,7 +90,7 @@ If !pBitmap%A_Index%
 
 ; Get the width and height of the bitmap we have just created from the file
 ; This will be the dimensions that the file is
-Loop 5{
+Loop 3{
 Width%A_Index% := Gdip_GetImageWidth(pBitmap%A_Index%), Height%A_Index% := Gdip_GetImageHeight(pBitmap%A_Index%)
 hbm%A_Index% := CreateDIBSection(Width%A_Index%, Height%A_Index%)
 hdc%A_Index% := CreateCompatibleDC()
@@ -117,7 +113,7 @@ Return
 CheckWinActivePOE:
 	GuiControlGet, focused_control, focus
 	
-Loop 5
+Loop 3
 {
 	If(WinActive(poeWindowName))
 		If (GuiON%A_Index% = 0) {
@@ -136,7 +132,7 @@ Loop 5
 Return
 
 #IfWinActive Path of Exile
-f2::
+f5::
 If (GuiON1 = 1) {
 Gui, 1: Hide
 GuiON1 := 0
@@ -148,7 +144,7 @@ GuiON1 := 1
 }
 return
 
-f3::
+f6::
 If (GuiON2 = 1) {
 Gui, 2: Hide
 GuiON2 := 0
@@ -160,7 +156,7 @@ GuiON2 := 1
 }
 return
 
-f4::
+f7::
 If (GuiON3 = 1) {
 Gui, 3: Hide
 GuiON3 := 0
@@ -171,31 +167,6 @@ Gui, 3: Show, NA
 GuiON3 := 1
 }
 return
-
-f6::
-If (GuiON4 = 1) {
-Gui, 4: Hide
-GuiON4 := 0
-}
-
-Else{
-Gui, 4: Show, NA
-GuiON4 := 1
-}
-return
-
-f7::
-If (GuiON5 = 1) {
-Gui, 5: Hide
-GuiON5 := 0
-}
-
-Else{
-Gui, 5: Show, NA
-GuiON5 := 1
-}
-return
-
 
 
 Exit:
